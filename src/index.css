@@ -1,16 +1,17 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 500;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  font-weight: 600;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
 }
 
 a {
@@ -28,6 +29,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: antiquewhite;
+  color: black;
 }
 
 h1 {
@@ -42,9 +44,10 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: rgb(201, 194, 194);
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 5px;
 }
 button:hover {
   border-color: #646cff;
